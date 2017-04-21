@@ -1,3 +1,5 @@
+const PORT = process.env.port || 3080;
+
 module.exports = {
   entry: [
     './src/index.js'
@@ -21,6 +23,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './',
+    port: PORT
   }
 };

@@ -1,5 +1,5 @@
-th, td {
-  vertical-align: middle;
+.table th, .table td {
+  vertical-align: bottom;
   text-align: center;
 }
 
