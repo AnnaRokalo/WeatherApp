@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Simple react example",
   "main": "index.js",
-  "repository": "",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "author": "",
   "license": "ISC",
